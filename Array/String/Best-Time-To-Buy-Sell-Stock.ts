@@ -4,6 +4,10 @@
 
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
+// Example 1:
+
+// Input: prices = [7,1,5,3,6,4]
+// Output: 5
 function maxProfit(prices: number[]): number {
     let buy = prices[0];
     let maxProfit = 0
